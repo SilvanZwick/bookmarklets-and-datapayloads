@@ -1,0 +1,1 @@
+javascript:(async()=>{   const url = prompt("Enter URL to HTML code to preview:");  if (!url) return;  try {    const res = await fetch(url);    const html = await res.text();    const newTab = window.open('about:blank');    newTab.document.open();    newTab.document.write(html);    newTab.document.close();  } catch (e) {    alert("Failed to fetch or open: " + e);  }})();
