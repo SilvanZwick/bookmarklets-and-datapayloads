@@ -10,3 +10,6 @@ fetch-and-run/project/version/main.js: Bookmarklet that can't go in the bookmark
 
 fetch-and-run/project/version/fast.js: Bookmarklet that can't go in the bookmarks bar or has multiple files (compact version--good for slow connections/big files)
 
+fetch-and-run/project/version/README.md: Explanation of bookmarklet and how to run
+
+
