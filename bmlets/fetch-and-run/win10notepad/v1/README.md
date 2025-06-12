@@ -25,3 +25,6 @@ To run this bookmarklet using the GitHub User Content CDN, type the following in
 ```
 javascript:fetch('https://raw.githubusercontent.com/SilvanZwick/bookmarklets-and-datapayloads/refs/heads/main/bmlets/fetch-and-run/win10notepad/v1/fast.js').then(response => response.text()).then(code => {eval(code);}).catch(error => {console.error('Error loading script: ', error);alert('Error loading script: ', error);});
 ```
+
+### IMPORTANT NOTE
+**NOTE: If you are copying using the Copy button for the bookmarklet and pasting into the address bar of a Chromium-based browser, it will automaticaly remove the `javascript:`. If you are testing in this way, make sure to type in the `javascript:`.**
