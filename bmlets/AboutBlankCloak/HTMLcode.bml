@@ -1,0 +1,1 @@
+let code=prompt("HTML code to cloak?");const w=window.open().document.body.innerHTML = code;
